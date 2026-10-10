@@ -42,7 +42,7 @@ npm install --prefix client
 Copy `server/.env.example` to `server/.env`. Fill in your own `MONGO_URI`, `JWT_SECRET`, `PORT` and `CLIENT_URL` values. **Never commit or share your `.env`.**
 
 ```env
-MONGO_URI=mongodb+srv://octoberstrike111_db_user:eU9UhXfdWpt4JHL2@m0.s1ww01y.mongodb.net/?appName=M0
+MONGO_URI=mongodb+srv://<Username>:<Password>.s1ww01y.mongodb.net/?appName=M0
 JWT_SECRET=8080@abc
 PORT=3000
 CLIENT_URL=http://localhost:5173
